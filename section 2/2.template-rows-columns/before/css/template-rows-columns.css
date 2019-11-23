@@ -1,0 +1,33 @@
+.container {
+    display: grid;
+}
+
+.two-column-container {
+    grid-template-columns: 200px 200px;
+}
+
+.just-rows-container {
+    grid-auto-rows: 100px 100px 100px 100px;
+}
+
+.two-by-two-container {
+    grid-template-columns: 200px 200px;
+    grid-auto-rows: 100px 100px;
+}
+
+.four-by-one-container {
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-auto-rows: 100px;
+}
+
+.just-columns-container {
+
+}
+
+.unnecessary-columns-container {
+
+}
+
+.unnecessary-rows-container {
+    
+}
